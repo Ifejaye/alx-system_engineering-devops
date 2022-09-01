@@ -17,6 +17,10 @@ This project contains the following files:
 >- 11-lists
 >- 12-file_type
 >- 13-symbolic_link
- >- 14-copy_html
+>- 14-copy_html
 
+>- 100-lets_move
+>- 101-clean_emacs
+>- 102-tree
+>- 103-commas
 To execute each file in this project, use the chmod command: chmod u+x file
