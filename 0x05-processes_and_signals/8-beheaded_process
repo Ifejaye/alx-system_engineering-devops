@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#terminates 4
+pid=$(pgrep -o "7-highlander")
+
+if [ -z "$pid" ]; then
+    echo "Process not found."
+else
+    kill -15 "$pid"
+    echo "terminated"
+fi
